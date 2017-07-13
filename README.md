@@ -10,14 +10,14 @@ It uses different packages :
 
 ## Installation
 
-Considering you already have vim installed on your machine, you can do the follwing to install both pathogen and my vim config :
+Considering you have vim, curl and git installed on your machine, you can do the follwing to install pathogen, the packages and my vim config :
 
 ### Pathogen installation 
 
-> mkdir -p ~/.vim/autoload ~/.vim/bundle && \ curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
+`mkdir -p ~/.vim/autoload ~/.vim/bundle && \ curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim`
 
 You can check out the pathogen github repo [here](https://github.com/tpope/vim-pathogen)
 
-### Configuration installation
+### Syntastic installation
 
-
+`cd ~/.vim/bundle && \ git clone --depth=1 https://github.com/vim-syntastic/syntastic.git`
