@@ -41,5 +41,5 @@ You can check out the NERDTree github repo [here](https://github.com/scrooloose/
 ### Config installation
 
 ```
-curl https://raw.githubusercontent.com/SiwonP/vimrc/master/.vimrc -o ~
+curl https://raw.githubusercontent.com/SiwonP/vimrc/master/.vimrc -o ~/.vimrc
 ```
