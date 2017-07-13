@@ -14,12 +14,16 @@ Considering you have vim, curl and git installed on your machine, you can do the
 
 ### Pathogen installation 
 
-```mkdir -p ~/.vim/autoload ~/.vim/bundle && \ curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim```
+```
+mkdir -p ~/.vim/autoload ~/.vim/bundle && \ curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
+```
 
 You can check out the pathogen github repo [here](https://github.com/tpope/vim-pathogen)
 
 ### Syntastic installation
 
-```cd ~/.vim/bundle && \ git clone --depth=1 https://github.com/vim-syntastic/syntastic.git```
+```
+cd ~/.vim/bundle && \ git clone --depth=1 https://github.com/vim-syntastic/syntastic.git
+```
 
 You can check out the Syntastic github repo [here](https://github.com/vim-syntastic/syntastic)
